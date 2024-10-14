@@ -1,0 +1,45 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #f6f5f3;
+}
+
+/* UTILITY */
+.container{
+    width: 100%;
+    padding: 0 20px;
+   
+   /* DEBUG */
+    background-color: aqua; */
+}
+
+
+/* HEADER */
+.header{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    
+}
+
+
+/* MEDIA QUERRY */
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .header{
+        text-align: left;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px){
+
+}
