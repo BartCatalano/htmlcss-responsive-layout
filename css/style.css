@@ -55,7 +55,9 @@ li{
     padding: 10px;
 
 }
-.video-col, {
+.video-col {
+    max-width: 100%;
+    height: 200px;
     width: 100%;
     background-color: white;
     padding: 20px;
@@ -88,6 +90,7 @@ li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 20px;
 }
 .media-tag{
     display: none;
@@ -220,6 +223,12 @@ padding: 0 10px 0 10px;
     }
     .media-tag{
         display: inline;
+    }
+    .video-col{
+        width: 70%;
+    }
+    .text-col{
+        width: 30%;
     }
 
 }
