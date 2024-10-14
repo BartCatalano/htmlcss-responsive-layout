@@ -96,6 +96,11 @@ li{
     display: none;
     padding: 3px;
 }
+
+/* BANNERINVIS */
+.bannerinvis{
+    display: none;
+}
 /* PRESENTATION */
 .presentation{
     padding: 20px ;
@@ -199,6 +204,9 @@ padding: 0 10px 0 10px;
     }
     .under{
         width: 0;
+    }
+    .bannerinvis{
+        display: inline;
     }
 }
 
