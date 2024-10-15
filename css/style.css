@@ -9,6 +9,7 @@ img{
 }
 body{
     background-color: #f6f5f3;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 li{
     list-style: none;
@@ -18,8 +19,7 @@ li{
 .container{
     width: 100%;
     padding: 20px;
-   
-  
+    margin: 10px;
 }
 .mt-20{
     margin-top: 20px;
@@ -27,9 +27,14 @@ li{
 .pd-20{
     padding: 20px;
 }
-.evident{
-    font-style: italic;
+.pdb-20{
+    padding-bottom: 20px;
+}
+.blu{ color: blue;
 
+}
+.red{
+    color: red;
 }
 
 
@@ -89,8 +94,8 @@ li{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content:space-between;
+   
 }
 .media-tag{
     display: none;
@@ -108,8 +113,9 @@ li{
 }
 .hr-presentation{
     margin: 10px 0;
-    width: 150px;
+    width: 100px;
     color: #f6c997;
+    background: #f6c997;
     
 }
 
@@ -172,8 +178,8 @@ padding: 0 10px 0 10px;
 @media screen and (min-width: 768px) {
     .container{
         width: 90%;
-        padding: 0;
-        margin: 0;
+        box-sizing: border-box;
+        
     }
     .header{
         text-align: left;
@@ -214,10 +220,9 @@ padding: 0 10px 0 10px;
 @media screen and (min-width: 992px){
 
 .container{
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
     box-sizing: border-box;
-    margin: 0 0 0 50px;
 }
     .video-raw{
         display: flex;
