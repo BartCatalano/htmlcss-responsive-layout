@@ -212,7 +212,7 @@ padding: 0 10px 0 10px;
         width: 0;
     }
     .bannerinvis{
-        display: inline;
+     display: flex;
     }
 }
 
@@ -223,6 +223,7 @@ padding: 0 10px 0 10px;
     width: 100%;
     max-width: 1200px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
     .video-raw{
         display: flex;
